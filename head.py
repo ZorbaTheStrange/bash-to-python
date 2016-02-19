@@ -41,6 +41,7 @@ def head(file_path, verbose=False, lines_out_put=10):
     Args:
         file_path (str|list):          File for printing out first 10 lines.
         verbose (bool):                Always output headers giving file name.
+        lines_out_put: (str)            Number of lines to output instead of 10
     '''
 
     if verbose:
