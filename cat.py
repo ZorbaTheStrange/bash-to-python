@@ -8,7 +8,7 @@ import sys, argparse, os
 
 def parse_args():
     '''
-    unix command cat
+    command line arguments
     '''
 
     parser = argparse.ArgumentParser()
